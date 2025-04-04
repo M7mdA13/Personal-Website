@@ -1,0 +1,136 @@
+html {
+  margin: 0;
+}
+body{
+    background-color: #f4f1e8 !important;
+}
+@media (max-width: 650px) {
+  .image-container{
+    height: 200px !important;
+  }
+  .aboutme-bio{
+    font-size: 0.8em !important;
+  }
+}
+@media (max-width: 450px) {
+  .image-container{
+    height: 150px !important;
+  }
+  .aboutme-bio{
+    font-size: 0.6em !important;
+  }
+}
+.landing {
+  height: 100vh;
+  background-color: #f4f1e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headline {
+  text-align: center;
+  font-family: Radley;
+  font-weight: 900;
+  font-size: 1.6em;
+}
+.name {
+  font-family: Radley;
+  color: #9b4819 !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.bio {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  font-family: Dosis;
+}
+.aboutme-container{
+  display: flex;
+  justify-content: center;
+}
+.aboutme-bio{
+  padding-left: 20px;
+  padding-top: 40px;
+  font-family: Dosis;
+  font-size: 1.2em;
+}
+.image-container{
+  margin-top: 20px;
+  border-radius: 50%;
+  height:300px;
+}
+.footer{
+    background-color: #2b3035 ;
+}
+a{
+  text-decoration: none !important;
+}
+.hover2:hover{
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btns-container{
+  display: flex;
+  justify-content: center;
+}
+.bt1{
+  font-family: Dosis !important;
+  background-color: #9b4819 !important;
+  border-color: #2b3035 !important;
+  border-width: 1.5px !important;
+  margin: 10px;
+}
+.bt1:hover{
+  background-color: #f4f1e8 !important;
+  color: #9b4819 !important;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.footer-cr{
+    justify-self: center;
+    padding-top: 12px;
+    font-family: dosis;
+    color: #f4f1e8;
+    font-size: 12px;
+}
+.hover :hover{
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+/* typing animation */
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
